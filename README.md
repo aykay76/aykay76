@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+I remember seeing an article about creating a repository with your profile name and the README becomes your intro/blog type thing.
+
+Let's try it out!
+
 <!--
 **aykay76/aykay76** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
