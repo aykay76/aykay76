@@ -4,17 +4,14 @@ Welcome to my slice of Github! I'm here to blog my development interests and act
 
 I've been programming for 30 years, about 20 of those professionally. I'm more of a hobby developer these days, always looking to learn new things and definitely open to collaboration.
 
-<!--
-**aykay76/aykay76** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Note to self, to clone all repos:
 
-Here are some ideas to get you started:
+```
+brew install gh
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+gh auth login
+
+gh repo list aykay76 --limit 4000 | while read -r repo _; do
+  gh repo clone "$repo" "$repo"
+done
+```
